@@ -1,0 +1,14 @@
+//
+//  FreqSpectrumView.h
+//  FrequencySpectrum_Playback
+//
+//  Created by Loud on 3/19/18.
+//  Copyright © 2018 loudsoftware. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface FreqSpectrumView : UIView
+@property(nonatomic,weak) NSArray* frequencyValues;
+@property(nonatomic)NSMutableArray* barViews;
+@end
