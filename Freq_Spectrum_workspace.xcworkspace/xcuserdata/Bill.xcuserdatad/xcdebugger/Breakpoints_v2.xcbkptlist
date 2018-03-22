@@ -22,17 +22,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../Static_Libraries/common_dsp/common_dsp/audioPlayback.mm"
-            timestampString = "543291878.754375"
+            filePath = "FrequencySpectrum_Playback/FreqSpectrumView.m"
+            timestampString = "543370568.082881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "619"
-            endingLineNumber = "619"
-            landmarkName = "doFFT(float* inData, UInt32 mNumFrequencies, SoundBufferPtr soundBuffer, UInt32 inBusNumber)"
-            landmarkType = "9">
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-setupBarViews"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,21 +42,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FrequencySpectrum_Playback/FreqSpectrumView.m"
-            timestampString = "543291878.754478"
+            timestampString = "543370568.08298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-setupBarViews"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FrequencySpectrum_Playback/FreqSpectrumView.m"
+            timestampString = "543370568.083059"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "-updateBarFrames"
             landmarkType = "7">
-            <Actions>
-               <BreakpointActionProxy
-                  ActionExtensionID = "Xcode.BreakpointAction.DebuggerCommand">
-                  <ActionContent
-                     consoleCommand = "">
-                  </ActionContent>
-               </BreakpointActionProxy>
-            </Actions>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -66,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FrequencySpectrum_Playback/FreqSpectrumView.m"
-            timestampString = "543291878.754861"
+            timestampString = "543370568.083125"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "-updateBarFrames"
             landmarkType = "7">
          </BreakpointContent>

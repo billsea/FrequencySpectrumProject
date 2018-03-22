@@ -14,10 +14,7 @@
 @property(nonatomic) audioPlayback* player;
 @property (weak, nonatomic) IBOutlet FreqSpectrumView *freqView;
 
-
 - (IBAction)playButton:(id)sender;
-
-
 
 @end
 

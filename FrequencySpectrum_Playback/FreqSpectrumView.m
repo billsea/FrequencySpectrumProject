@@ -42,7 +42,6 @@
 - (void)layoutSubviews {
 	[super layoutSubviews];
 	
-	//self.labelView.frame = CGRect(x: 0.0, y: 0.0, width: self.frame.size.width, height: 20.0)
 	if(_frequencyValues > 0)
 	  [self updateBarFrames];
 }
@@ -57,7 +56,6 @@
 - (void)setupBarViews {
 	//Create bar view for each frequency value
 	_barViews = [[NSMutableArray alloc] init];
-	//for(NSObject* fv in _frequencyValues){
 	int i = 0;
 	
 	//Show only frequencies that have a value
@@ -81,7 +79,6 @@
 		[self addSubview:v];
 		i++;
 	}
-
 }
 
 //TODO: this is a work in progress, need to work on scaling and centering the frequency views
@@ -102,8 +99,6 @@
 		}
 			barView.frame = CGRectMake(i * barWidth,viewHeight - barHeight, barWidth, barHeight);
 	}
-	
-	
 }
 
 @end
