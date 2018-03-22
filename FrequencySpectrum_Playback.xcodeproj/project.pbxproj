@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9215FB320631A8E00241731 /* sweep_20_20k.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9215FB220631A8E00241731 /* sweep_20_20k.mp3 */; };
+		A9215FB520631AB900241731 /* pink_noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9215FB420631AB900241731 /* pink_noise.mp3 */; };
+		A9215FB720631B5100241731 /* white_noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9215FB620631B5100241731 /* white_noise.mp3 */; };
+		A9215FB920631EE600241731 /* sine_1k.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9215FB820631EE600241731 /* sine_1k.mp3 */; };
+		A9215FBB20631F3B00241731 /* sine10k.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9215FBA20631F3B00241731 /* sine10k.mp3 */; };
 		A95357922053797F00C70804 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A95357912053797F00C70804 /* AppDelegate.mm */; };
 		A95357952053797F00C70804 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A95357942053797F00C70804 /* ViewController.mm */; };
 		A95357982053797F00C70804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95357962053797F00C70804 /* Main.storyboard */; };
@@ -14,7 +19,6 @@
 		A953579D2053797F00C70804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A953579B2053797F00C70804 /* LaunchScreen.storyboard */; };
 		A95357A02053797F00C70804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A953579F2053797F00C70804 /* main.m */; };
 		A9546F772061E56E00B6D955 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9546F762061E56E00B6D955 /* test.mp3 */; };
-		A9546F792061E96E00B6D955 /* test2.aif in Resources */ = {isa = PBXBuildFile; fileRef = A9546F782061E94400B6D955 /* test2.aif */; };
 		A97B11F32060CD0300CF3929 /* FreqSpectrumView.m in Sources */ = {isa = PBXBuildFile; fileRef = A97B11F22060CD0300CF3929 /* FreqSpectrumView.m */; };
 		A9A55EF6205DF99F005C5D3E /* libcommon_dsp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A55EF5205DF99E005C5D3E /* libcommon_dsp.a */; };
 		A9A55EFB205DF9C5005C5D3E /* common_dsp.h in Resources */ = {isa = PBXBuildFile; fileRef = A9A55EF7205DF9C4005C5D3E /* common_dsp.h */; };
@@ -29,6 +33,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9215FB220631A8E00241731 /* sweep_20_20k.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sweep_20_20k.mp3; sourceTree = "<group>"; };
+		A9215FB420631AB900241731 /* pink_noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pink_noise.mp3; sourceTree = "<group>"; };
+		A9215FB620631B5100241731 /* white_noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = white_noise.mp3; sourceTree = "<group>"; };
+		A9215FB820631EE600241731 /* sine_1k.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sine_1k.mp3; sourceTree = "<group>"; };
+		A9215FBA20631F3B00241731 /* sine10k.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sine10k.mp3; sourceTree = "<group>"; };
 		A953578D2053797F00C70804 /* FrequencySpectrum_Playback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrequencySpectrum_Playback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95357902053797F00C70804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A95357912053797F00C70804 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -40,7 +49,6 @@
 		A953579E2053797F00C70804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A953579F2053797F00C70804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9546F762061E56E00B6D955 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
-		A9546F782061E94400B6D955 /* test2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = test2.aif; sourceTree = "<group>"; };
 		A97B11F12060CD0300CF3929 /* FreqSpectrumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreqSpectrumView.h; sourceTree = "<group>"; };
 		A97B11F22060CD0300CF3929 /* FreqSpectrumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreqSpectrumView.m; sourceTree = "<group>"; };
 		A9A55EF3205DF8B6005C5D3E /* libcommon_dsp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcommon_dsp.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +86,12 @@
 		A95357842053797F00C70804 = {
 			isa = PBXGroup;
 			children = (
-				A9546F782061E94400B6D955 /* test2.aif */,
 				A9546F762061E56E00B6D955 /* test.mp3 */,
+				A9215FB820631EE600241731 /* sine_1k.mp3 */,
+				A9215FBA20631F3B00241731 /* sine10k.mp3 */,
+				A9215FB220631A8E00241731 /* sweep_20_20k.mp3 */,
+				A9215FB420631AB900241731 /* pink_noise.mp3 */,
+				A9215FB620631B5100241731 /* white_noise.mp3 */,
 				A9DCFA5F2060B2EE00A9A8E4 /* audioPlayback.h */,
 				A9A55EFA205DF9C4005C5D3E /* center_reducer.h */,
 				A9A55EF7205DF9C4005C5D3E /* common_dsp.h */,
@@ -190,12 +202,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9546F792061E96E00B6D955 /* test2.aif in Resources */,
 				A9A55EFB205DF9C5005C5D3E /* common_dsp.h in Resources */,
 				A9A55EFC205DF9C5005C5D3E /* filt.h in Resources */,
 				A9546F772061E56E00B6D955 /* test.mp3 in Resources */,
+				A9215FB520631AB900241731 /* pink_noise.mp3 in Resources */,
+				A9215FB720631B5100241731 /* white_noise.mp3 in Resources */,
 				A9A55EFE205DF9C5005C5D3E /* center_reducer.h in Resources */,
 				A953579D2053797F00C70804 /* LaunchScreen.storyboard in Resources */,
+				A9215FB920631EE600241731 /* sine_1k.mp3 in Resources */,
+				A9215FBB20631F3B00241731 /* sine10k.mp3 in Resources */,
+				A9215FB320631A8E00241731 /* sweep_20_20k.mp3 in Resources */,
 				A953579A2053797F00C70804 /* Assets.xcassets in Resources */,
 				A95357982053797F00C70804 /* Main.storyboard in Resources */,
 			);
