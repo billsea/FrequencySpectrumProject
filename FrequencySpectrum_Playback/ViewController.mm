@@ -23,6 +23,9 @@
 	
 	//Callback for frequency display refresh
 ViewController __weak *weakSelf = self;
+	
+	weakSelf.freqView.showFrequencyLabels = YES;
+	
 	_player.frequencyCallback = ^(Float32* freqData,UInt32 size){
 		int length = (int)size;
 		NSMutableArray *freqValues = [NSMutableArray new];

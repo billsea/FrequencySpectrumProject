@@ -12,4 +12,6 @@
 @property(nonatomic,weak) NSArray* frequencyValues;
 @property(nonatomic)NSMutableArray* barViews;
 @property(nonatomic)NSMutableArray* customBarViews;
+@property(nonatomic)bool showFrequencyLabels;
+@property(nonatomic)float highlightedFrequency;
 @end

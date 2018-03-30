@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface FrequencySpectrumBarView : UIView
-@property(nonatomic) float barHeight;
-@property(nonatomic) float barWidth;
 @property(nonatomic) float scaling;
 @property(nonatomic) float barFrequencyValue;
+@property(nonatomic) float segmentHeight;
+@property(nonatomic) bool isHighlightedBand;
 @end
