@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A91526F8206E0F8100426C4F /* FrequencySpectrumBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A91526F7206E0F8100426C4F /* FrequencySpectrumBarView.m */; };
 		A9215FB320631A8E00241731 /* sweep_20_20k.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9215FB220631A8E00241731 /* sweep_20_20k.mp3 */; };
 		A9215FB520631AB900241731 /* pink_noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9215FB420631AB900241731 /* pink_noise.mp3 */; };
 		A9215FB720631B5100241731 /* white_noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A9215FB620631B5100241731 /* white_noise.mp3 */; };
@@ -33,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A91526F6206E0F8100426C4F /* FrequencySpectrumBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrequencySpectrumBarView.h; sourceTree = "<group>"; };
+		A91526F7206E0F8100426C4F /* FrequencySpectrumBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrequencySpectrumBarView.m; sourceTree = "<group>"; };
 		A9215FB220631A8E00241731 /* sweep_20_20k.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sweep_20_20k.mp3; sourceTree = "<group>"; };
 		A9215FB420631AB900241731 /* pink_noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pink_noise.mp3; sourceTree = "<group>"; };
 		A9215FB620631B5100241731 /* white_noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = white_noise.mp3; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				A953579F2053797F00C70804 /* main.m */,
 				A97B11F12060CD0300CF3929 /* FreqSpectrumView.h */,
 				A97B11F22060CD0300CF3929 /* FreqSpectrumView.m */,
+				A91526F6206E0F8100426C4F /* FrequencySpectrumBarView.h */,
+				A91526F7206E0F8100426C4F /* FrequencySpectrumBarView.m */,
 			);
 			path = FrequencySpectrum_Playback;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 			files = (
 				A95357952053797F00C70804 /* ViewController.mm in Sources */,
 				A97B11F32060CD0300CF3929 /* FreqSpectrumView.m in Sources */,
+				A91526F8206E0F8100426C4F /* FrequencySpectrumBarView.m in Sources */,
 				A95357A02053797F00C70804 /* main.m in Sources */,
 				A95357922053797F00C70804 /* AppDelegate.mm in Sources */,
 			);

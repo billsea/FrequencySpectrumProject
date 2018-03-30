@@ -22,6 +22,7 @@
 	[_player initializeAudio];
 	
 	//Callback for frequency display refresh
+ViewController __weak *weakSelf = self;
 	_player.frequencyCallback = ^(Float32* freqData,UInt32 size){
 		int length = (int)size;
 		NSMutableArray *freqValues = [NSMutableArray new];
@@ -32,11 +33,11 @@
 		
 		//Validate 256 length
 		if (freqValues.count == 256) {
-			_freqView.frequencyValues = freqValues;//TODO:fix warning
+			weakSelf.freqView.frequencyValues = freqValues;//TODO:fix warning
 		}
 	};
 	
-	[_player initBufferProcess];
+	[weakSelf.player initBufferProcess];
 }
 
 - (void)didReceiveMemoryWarning {

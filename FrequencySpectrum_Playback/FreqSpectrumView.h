@@ -11,4 +11,5 @@
 @interface FreqSpectrumView : UIView
 @property(nonatomic,weak) NSArray* frequencyValues;
 @property(nonatomic)NSMutableArray* barViews;
+@property(nonatomic)NSMutableArray* customBarViews;
 @end
